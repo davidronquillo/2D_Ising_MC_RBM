@@ -8,7 +8,7 @@ The set of spin configurations is not random, but is produced via importance sam
 
 Output files (either spin configurations or observables at a given temperature) are written to a  folder titled `Data`. We use a square lattice with periodic boundary conditions.
 
-'2D_Ising_RBM.ipynb`:
+`2D_Ising_RBM.ipynb`:
 We train a Restricted Boltzmann Machine (RBM) neural network on the set of spin configurations generated using the `2D_Ising_MC_Simulator.ipynb` notebook. The trained RBM is then used to generate new spin configurations at given temperatures. Thermodynamic observables are then calculated for these new sets of spin configurations which can be compared to results from MC sampling.
 
 -----------------------------------------------------------
